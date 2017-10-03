@@ -17,6 +17,6 @@ import { HttpModule } from '@angular/http';
     ],
     providers: [],
     bootstrap: [AppComponent]
-
-export class AppModule { }
 })
+export class AppModule { }
+
