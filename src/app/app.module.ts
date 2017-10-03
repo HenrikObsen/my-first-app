@@ -6,16 +6,17 @@ import { ServerComponent } from './server/server.component';
 import { HttpModule } from '@angular/http';
 
 @NgModule({
-  declarations: [
-      AppComponent,
-      ServerComponent
-  ],
-  imports: [
-      BrowserModule,
-      FormsModule,
-      HttpModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        ServerComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
+
 export class AppModule { }
 })
